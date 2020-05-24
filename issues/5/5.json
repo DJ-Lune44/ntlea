@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 6,
+    "Custom": null,
+    "Description": "　　有的游戏是通过launcher.exe启动游戏主程序的，有的是通过网页页面的点击启动游戏主程序的。而直接启动游戏主程序是不能登陆的。\r\n\r\n　　例如韩国的网游是从网页启动的。\r\n\r\n　　我也使用过旧版的ntle，NtleaGUI.exe安装后，这个程序应该是监视所有进程的启动，由ntle程序本身来启动应该启动的程序。（也就造成每个程序都是由ntle来启动的。这样也不能修改下面说的这些情况下的程序启动后的外国语言显示方式，依然会是乱码。）\r\n\r\n　　我不懂代码，但是这些游戏启动应该都是访问了系统的设置——“非unicode程序中所使用的当前语言”。\r\n\r\n　　那么可不可以提供一种方式：监视访问“这个设置所处位置”的程序名称和程序路径，当ntlea碰到　”在名单中的程序名称或程序所在路径“　的程序启动时，自动修改windows返回的这个设置值（不要修改windows设置）提供给名单中的程序。\r\n\r\n　　例如：\r\n　　1  程序：F:\\Counter-Strike Online 2\\Bin\\CounterStrikeOnline2.exe\r\n　　2  程序路径 F:\\Counter-Strike Online 2\\*\r\n　　只是举个例子，这个游戏只是体验过。\r\n\r\n　　这样应该可以解决所有问题。",
+    "LastUpdatedDate": "2015-08-08T00:15:37.793-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-07-24T21:52:01.31-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "需要新的方式启动游戏",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 5
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "反复看了即便，不知道有没有理解出错，感觉LZ的意思是，通过通配符来接管所有开启的游戏？\n\nNTLEA和NTLEAS本意都是通过父进程接管的方式来处理的，即如果第一个进程通过NTLEA(S)开启，那么由他打开的进程都是受NTLEA(S)影响的（当然没接管到的情况可能会有）。\n\n即通过LAUNCHER或者其他启动游戏，应该都会保持挂钩",
+      "PostedDate": "2014-08-24T04:02:43.493-07:00",
+      "Id": 156831
+    },
+    {
+      "Message": "　　应该是你说的通配符，可以设置路径F:\\Counter-Strike Online 2\\*，只要是 F:\\Counter-Strike Online 2\\ 路径下的exe启动都为韩语，但是不要用父进程去启动其它程序，仅仅是监视程序启动，匹配名单中的程序或者路径，再由ntleas接管修改。\n\n　　旧版NtleaGUI.exe安装后，连防火墙的程序都是由Ntlea的程序启动的。hips监视会弹出一大堆窗口说，Ntlea*.exe 启动某某程序是否允许，几乎所有进程都是由ntlea启动。忘了旧版的ntlea的exe名称了。\n\n　　感谢回复。",
+      "PostedDate": "2014-08-27T20:21:44.727-07:00",
+      "Id": 158120
+    },
+    {
+      "Message": "　　F:\\Counter-Strike Online 2\\   斜线后又星号，连续发的话就像上面星号前面的斜线不见了。",
+      "PostedDate": "2014-08-27T20:23:26.533-07:00",
+      "Id": 158122
+    },
+    {
+      "Message": "　　Counter-Strike Online 2 是从网页上点击start按钮启动的。是不是我需要设置启动IE浏览器为韩语？（现在用的新版，旧版不用了）\n\n　　这个游戏频道里，房间列表的名称和进入房间后聊天是乱码（非unicode？），界面、设置什么的，都显示韩语（应该是unicode的吧）。一个游戏为什么不全弄成unicode呢？\n\n　　要是可以直接修改反馈给游戏程序的   系统设置——“非unicode程序中所使用的当前语言”。而不用父进程接管，感觉这样最好。我把“非unicode程序中所使用的当前语言”改成韩语，进游戏就都正常了。桌面的图标名称里的汉语，和其他程序的汉语也是正常的。但是我的第三方防火墙弹窗和设置窗口的部分内容也和前面的情况一样变成乱码了。为什么防火墙也不做成全部unicode的啊。程序员怎么想的啊。",
+      "PostedDate": "2014-08-27T20:43:30.54-07:00",
+      "Id": 158124
+    },
+    {
+      "Message": "主要是改一回   系统设置——“非unicode程序中所使用的当前语言”，就得重新启动电脑，真啊麻烦。",
+      "PostedDate": "2014-08-27T20:45:19.167-07:00",
+      "Id": 158125
+    },
+    {
+      "Message": "有一些对NTLEAS比较棘手的情况是，一部分窗口并没有提供允许国际化（UNICODE）引入参数，例如一些默认的控件或者对话框，会导致一部分界面呈现的语言并非被处理过，但是又不是走过通用的例程。\n\n以前碰到过印象比较深的就是文件选择对话框，处理我也是最后用了比较绕圈子的方法……\n\n毕竟NTLEA系列没有去尝试涉入系统内，只是在外围做一些工作。\n\n从web上启动也可能是间接启动了别的已经安装好的程序，可以尝试研究一下具体的启动代码，找到对应的启动程序，这样也许会方便一些？\n\n有一些模组可能是UNICODE或者ANSI的……商业要求吧……没有太多时间去考虑细节的问题",
+      "PostedDate": "2014-09-14T07:51:49.453-07:00",
+      "Id": 159702
+    }
+  ]
+}

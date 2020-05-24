@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi!\r\n\r\nI was under the impression that NTLEA should allow us to bypass the Japanese display language check performed by certain games. However, it doesn't seem to work for this one: \r\n\r\nhttp://mana.product.co.jp/yumearu/\r\n\r\nhttp://www.getchu.com/soft.phtml?id=729526\r\n\r\nAny idea what the issue might be?\r\n\r\nThanks!",
+    "LastUpdatedDate": "2016-06-15T18:34:01.81-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2016-06-15T18:34:01.81-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ゆめいろアルエット！ still requires Japanese display language to run with NTLEA",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 21
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

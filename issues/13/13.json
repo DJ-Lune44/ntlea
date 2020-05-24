@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "In the past, Ntlea's most useful function is its \"Compulsory Mode,\" which solved a lot of issues. But this resurrected version doesn't provide it anymore. As a result, some games do not run right.",
+    "LastUpdatedDate": "2015-05-12T00:35:10.367-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2015-01-13T23:25:28.61-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "No Compulsory Mode?",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 13
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi,\n\nPlease provide example project for debugging, thanks.",
+      "PostedDate": "2015-05-12T00:35:10.367-07:00",
+      "Id": 184234
+    }
+  ]
+}

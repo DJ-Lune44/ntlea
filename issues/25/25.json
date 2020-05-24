@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This Issue is created for those who use Mactype and facing crashing problem.\r\n\r\nThe executable name ntleas.exe need to be included under [UnloadDll], otherwise program started with NTLEAS will crash.",
+    "LastUpdatedDate": "2017-11-16T01:08:08.4-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2017-11-16T01:08:08.4-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ntleas.exe not compatible with Mactype",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 25
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

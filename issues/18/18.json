@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "64位NTLEAs对cs2.exe这个引擎支持不好\r\n\r\nアンラッキーリバース\r\n\r\n用NTLEAs启动它总要报错  四个dll都试了 各种姿势报错  求修复",
+    "LastUpdatedDate": "2016-01-16T08:58:10.157-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2015-11-16T05:40:01.377-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "64位NTLEAs的问头",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 18
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "64位NTLEAs的问题~~  输入法选错了~",
+      "PostedDate": "2015-11-16T06:25:51.8-08:00",
+      "Id": 193705
+    }
+  ]
+}

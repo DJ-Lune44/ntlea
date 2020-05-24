@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "http://www.humanbalance.net/gale/us/download.html\r\n\r\nGraphicsGale is an ANSI software, meaning it can't handle Unicode paths.\r\n\r\nWhen launched with NTLEA, it gets Japanese interface properly. Yet it still has problems opening files with japanese symbols in paths. From my own experience, no locale emulation software was able to make it work properly, until now: Locale-Emulator handles this better, and it allows GraphicsGale to properly work with such paths. It's open-source: https://github.com/xupefei/Locale-Emulator\r\n\r\nMaybe this can be fixed in future for NTLEA too.",
+    "LastUpdatedDate": "2015-11-01T05:27:17.213-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2015-10-23T05:22:08.883-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "GraphicsGale not working properly with NTLEA",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 17
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "First, say, thank you very much for reporting us the problem!\n\nand this problem did reproduced here under my PC, and this should be a problem came with original NTLEA, maybe it required a lil time for repairing it. :D \n\n",
+      "PostedDate": "2015-11-01T05:27:17.213-08:00",
+      "Id": 193176
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "问题已经解决。",
+    "ClosedDate": "2014-01-30T04:26:31.08-08:00",
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "__程式简介__\r\n[QLiE](http://qlie.net/)是一个GALGAME的游戏制作引擎。\r\n![Image](http://qlie.net/parts/qlie_logo.png)![Image](http://qlie.net/parts/qlie.png)\r\n\r\n__问题描述__\r\n在使用ntlea或者ntleas加载QLiE开发的游戏，例如[『ラブ☆キス』体験版](http://www.project-lime.com/services/downloads/trial.html)，启动界面即出现乱码的情况，直接打开除了窗口标题以外却都是正常的日文或者英文。",
+    "LastUpdatedDate": "2014-01-30T04:26:31.08-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-01-22T17:25:41.96-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "QLiE引擎的游戏，将英文错误解释为乱码",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "这个问题已经解决了。可以参考[这个页面](https://ntlea.codeplex.com/wikipage?title=LEResearch)",
+      "PostedDate": "2014-01-30T04:26:12.047-08:00",
+      "Id": 132107
+    }
+  ]
+}

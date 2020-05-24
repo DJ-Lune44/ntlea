@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 3,
+    "Custom": null,
+    "Description": "ましろ色シンフォニー will just error out with \"illegal execution environment\" message while NTLEA 0.931 has no issue to launch it.\r\n\r\nthe other issue is that Timezone and component can't be customized, so I can't experiment with them to try to get things work",
+    "LastUpdatedDate": "2015-05-01T05:13:43.7-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-08-30T19:58:35.473-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "some games simply error out with NTLEAS, but works with NTLEA",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 10
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "maybe a bug there ? thx for the name , and i'll try it later :D ",
+      "PostedDate": "2014-09-14T03:59:12.057-07:00",
+      "Id": 159694
+    },
+    {
+      "Message": "Hello!\n\nAfter trial version tested, no problem happened though. inlcudeing instalation and start and play .\n\nURL: http://mirror.fuzzy2.net/egg3/modules/mymirrors/singlefile.php?cid=102&lid=115&age_check=ok\n\nis there another version?? or could you please point me out the DL position for your copy :D\n",
+      "PostedDate": "2014-09-14T07:40:41.303-07:00",
+      "Id": 159700
+    },
+    {
+      "Message": "the full version check quite a bit of things. the created directory/file names are in broken encoding characters even when launched with NTLEA, URL as follow. you need to remove the all \\n\n\n\nhttp\n:\n//\nsukebei.nyaa.se\n/\n?\npage=view\n&\ntid=258950",
+      "PostedDate": "2014-09-14T10:02:31.7-07:00",
+      "Id": 159707
+    }
+  ]
+}

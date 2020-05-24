@@ -1,0 +1,13 @@
+<div class="wikidoc"><h1>中文帮助说明</h1><h2>软件说明</h2>Ntleas是基于Ntlea重写并追加更多更完善功能的版本，首先他完全可以和Ntlea混用，即在WIN8系统之前，可以随意用ntleac调用ntleai.dll（当然得更名为ntleah.dll，后同），反之ntleas调用ntleah.dll，如果你喜欢NtleaGUI并在使用它，甚至可以直接替换掉ntleah.dll为ntleai.dll（需更名ntleai.dll为ntleah.dll）就可以直接使用新版，并且还支持了WIN8，然后他又是一个Ntlea++，具备更多的系统和应用程序的兼容性。
+<h2>参数列表</h2><table><tr><td> &quot;x:\xxxxx\xxx.exe&quot; </td><td> 目标程序路径 </td><td> 该参数必须位于第一项 </td></tr>
+<tr><td> &quot;Px&quot; </td><td> 指定兼容性选项 </td><td> x为描述兼容性开关的数值，每一个位域指定一个选项（注）。例如，当x为1时，第1个兼容性选项将被开启；当x为8时，第4个兼容性选将被开启；当x为7时，前3个兼容性选项均被开启（1 且 2 且 4 = 7）</td></tr>
+<tr><td> &quot;Cx&quot; </td><td> 指定页码 </td><td> x为页码ID </td></tr>
+<tr><td> &quot;Lx&quot; </td><td> 指定语言 </td><td> x为语言区域ID </td></tr>
+<tr><td> &quot;Tx&quot; </td><td> 指定时区修正 </td><td> x为UTC时区修正数值，单位是分钟 </td></tr>
+<tr><td> &quot;Fxxx&quot; </td><td> 指定预设字体 </td><td> xxx为字体名称 </td></tr>
+<tr><td> &quot;Axxx&quot; </td><td> 指定将要传给目标应用程序的参数 </td><td> xxx为参数内容 </td></tr>
+<tr><td> &quot;Sx&quot; </td><td> 指定字体收放比率 </td><td> x为比值，单位是百分率 </td></tr></table>
+<ul><li>注：这里所说的位域是指二进制数的数位，一个整数最多拥有32个位域，第x位域的值等于2的x次方。</li></ul>
+<h2>示例说明</h2>示例参数：ntleas.exe &quot;d:\test\game.exe&quot; &quot;A-G 123 -B 456&quot; &quot;P0&quot; &quot;C932&quot; &quot;L1041&quot; &quot;T-540&quot; &quot;FMS Gothic&quot; &quot;S200&quot;<br />示例说明：执行结果为启动“d:\test\game.exe -G 123 -B 456”，并设置页码为932（日文Shift-JIS），语言区域为日本，字体为“MS Gothic”，以两倍的大小显示，时区为东9区（GMT + 9:00或UTC - 9:00）。
+<ul><li>注：如果参数中包含双引号，则可用单引号来代替。如上例的&quot;A-G 123 -B 456&quot;，追加双引号后可书写为&quot;A&#39;-G 123&#39; &#39;-B 456&#39;&quot;</li></ul>
+</div><div class="ClearBoth"></div>

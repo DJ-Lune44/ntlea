@@ -1,0 +1,51 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "新楓之谷無法使用, 輸入帳密(可隨便輸入適當長度任意字符測試)點擊登入會概率性卡住\r\n測試系統Win7/ Win10/ Win10 TH2",
+    "LastUpdatedDate": "2016-01-16T09:17:32.343-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2016-01-16T08:57:49.347-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "新楓之谷使用不能",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 19
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1538705,
+      "FileName": "_LJSLN0[8%H7_2VBJY@(LNP.png",
+      "DownloadUrl": ".\\1538705"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "並且遊戲錯誤提示是亂碼(無法連結伺服器之類的錯誤提示), 如圖",
+      "PostedDate": "2016-01-16T09:17:32.343-08:00",
+      "Id": 195493
+    }
+  ]
+}

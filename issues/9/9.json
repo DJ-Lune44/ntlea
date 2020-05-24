@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 3,
+    "Custom": null,
+    "Description": "我用Ntleas来加载MMD使用，但是，时不时会闪退，闪退机制不知道，很偶尔，并且很频繁，看了下，Ntleas加载MMD调用的是ntleak.dll或者是ntleai.dll。嘛，如果针对MMD的闪退问题能解决就好了\r\n顺带，如果我使用Ntleas加载MMD的时候，在任务管理器里面关闭桌面，让程序造成几秒的未响应状态，那么MMD就会没有任何提示的秒退\r\n当然关闭桌面只是为了方便造成这种闪退的现象，实际上用的时候，因为MMD加载数据大了点，造成MMD本身有几秒的未响应就会使MMD程式自动关闭",
+    "LastUpdatedDate": "2014-09-14T07:43:59.597-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-08-20T00:34:02.797-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "加载MMD时会有几率闪退",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 9
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "你好，\n\n是ntleak、ntleai均出现的是一样的状况吗？\n\n出现闪退问题的时候，能否帮忙查看一下在NTLEAS的安装目录下面，或者应用程序下面是否出现 应用程序＋时间.dmp的提示，\n\n还有我想知道一下运行环境，是WINDOWS XP、7 还是 8.1？",
+      "PostedDate": "2014-08-24T04:39:18.44-07:00",
+      "Id": 156836
+    },
+    {
+      "Message": "运行环境是Win7 64位，同时我也给Win8.1 64位试过，都是一样的情况，程序闪退以后，并没有出现应用程序＋时间.dmp的提示\n我使用的MMD是64位的程式，所有调用的是64位的ntleak.dll,出现问题以后，我换成了32位的MMD，调用的是ntleai.dll，但是情况依旧是这样，没有改变。\n然后最新的调查结果显示\n我不知道作者您懂不懂MMD的事情，不过我还是先讲一下吧\nMMD有个外挂的插件叫MME，我发现在安装了这个插件以后，再使用Nt加载MMD运行，会有几率出现闪退的现象 ，反之好像不会出现，我正在测试是不是因为MME插件本身和NT冲突而造成的这个现象，总之情况就是如此",
+      "PostedDate": "2014-09-06T06:02:34.523-07:00",
+      "Id": 158974
+    },
+    {
+      "Message": "MMD的确用的不多，只是偶尔会用来转换一下PMX到OBJ/3DS模型……\n\n闪退时候如果是异常退出，在nt安装目录下或者所运行的程序可能会有.DMP__文件__产生并非提示。",
+      "PostedDate": "2014-09-14T07:43:59.597-07:00",
+      "Id": 159701
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "windows 7x64 here:\r\n\r\n- Ntleas disappears from the context menu after reboot, perhaps this can help solving the issue http://www.hongfire.com/forum/showthread.php/82164-Right-Click-Context-Menu-for-Applocale\r\n\r\n- Ntleas does not work with AlphaRom crack, for example this game http://www.anime-sharing.com/forum/torrents-47/5-%5B140523%5D-%5Btinkerbell%5D-新しいフォ淑母の疼き-～人妻、未亡人の熟れた身体と甘い吐息～-%5Bh-game%5D-230342/ can not be run with Ntleas\r\n\r\nAlso a suggestion of mine is to allow the drag and drop of shortcuts to Ntleas instead of only the original EXE file.\r\n\r\n\r\n",
+    "LastUpdatedDate": "2014-08-24T04:24:41.437-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-07-26T15:23:33.723-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "some issues",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 6
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": " * i'll check that thread, it should require Administrator's right to register te context menu.\n * yes, alpharom doesnot support yet which is reported by my friend in 9gal :D, i'll try to find the reason later :D\n\nanyway, Thx for reporting this issues :D",
+      "PostedDate": "2014-08-24T04:24:41.437-07:00",
+      "Id": 156833
+    }
+  ]
+}

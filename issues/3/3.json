@@ -1,0 +1,51 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "詳見附圖，只能以applocale運行。\r\n這個問題已經存在好幾個NTLEA的版本上。\r\n![Image](imgur.com/U8719L5.png)",
+    "LastUpdatedDate": "2014-07-13T17:17:15.98-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-06-14T22:56:07.743-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "BNO_Starter運行報錯internal exception",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 3
+  },
+  "FileAttachments": [
+    {
+      "FileId": 863994,
+      "FileName": "ntlea.png",
+      "DownloadUrl": ".\\863994"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "好的，我会去下载然后确认\n\n这个问题应该是属于，没有成功挂钩到消息处理函数，判定为无效转换。",
+      "PostedDate": "2014-07-13T17:17:15.98-07:00",
+      "Id": 152211
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+[
+  {
+    "Id": "0",
+    "Name": "Ntleas Core.GUI Build 45",
+    "DevelopmentStatus": "Stable",
+    "Description": "*Version: 1.0.0*\n*Build: 45*\n*Description*\nfix bugs with some game error system font.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2015-05-09T04:24:46.097-07:00",
+    "Files": [
+      {
+        "Id": "944d1959-27da-435c-977f-ce34bd31e659",
+        "FileName": "ntleas045_x64.7z",
+        "Url": "./0/944d1959-27da-435c-977f-ce34bd31e659",
+        "Type": "Application",
+        "UploadDate": "2015-05-09T04:24:25.44-07:00"
+      },
+      {
+        "Id": "cea1020f-faa9-4e19-98ae-bb7dc9b6a252",
+        "FileName": "ntleas045_x86.7z",
+        "Url": "./0/cea1020f-faa9-4e19-98ae-bb7dc9b6a252",
+        "Type": "Application",
+        "UploadDate": "2015-05-09T04:24:25.613-07:00"
+      },
+      {
+        "Id": "c52d9a33-8d69-4016-907a-86a42e56de6b",
+        "FileName": "ntleasWinUsage.005.7z",
+        "Url": "./0/c52d9a33-8d69-4016-907a-86a42e56de6b",
+        "Type": "Application",
+        "UploadDate": "2015-05-09T04:24:25.69-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "Ntleas Core.GUI Build 44",
+    "DevelopmentStatus": "Stable",
+    "Description": "*Version: 1.0.0*\n*Build: 44*\n*Description*\n# fix bugs with krkr (or many other programs using TListBox) string cut off wrong.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-07-11T22:55:12.11-07:00",
+    "Files": [
+      {
+        "Id": "be0c9f0b-caa0-4be6-a965-84d8050b0a46",
+        "FileName": "ntleas044_x64.7z",
+        "Url": "./1/be0c9f0b-caa0-4be6-a965-84d8050b0a46",
+        "Type": "Application",
+        "UploadDate": "2014-07-11T22:55:09.673-07:00"
+      },
+      {
+        "Id": "1264ee2b-228d-4d64-9af3-da551c16266c",
+        "FileName": "ntleas044_x86.7z",
+        "Url": "./1/1264ee2b-228d-4d64-9af3-da551c16266c",
+        "Type": "Application",
+        "UploadDate": "2014-07-11T22:55:09.72-07:00"
+      },
+      {
+        "Id": "bfd95791-841d-4e16-88ad-9a21b139d255",
+        "FileName": "ntleasWinUsage.005.7z",
+        "Url": "./1/bfd95791-841d-4e16-88ad-9a21b139d255",
+        "Type": "Documentation",
+        "UploadDate": "2014-07-11T22:55:09.75-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Ntleas Core.GUI Build 43",
+    "DevelopmentStatus": "Stable",
+    "Description": "*Version: 1.0.0*\n*Build: 43*\n*Description*\n# fix bugs ntleak may not support windows XP\n# fix bugs some fonts were not shown correctly in EnumFonts & EnumFontFamiliesEx\n# first stable version out",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-25T21:39:40.557-07:00",
+    "Files": [
+      {
+        "Id": "9c712edb-2531-4ad5-be1f-03d4362e44ec",
+        "FileName": "ntleas043_x64.7z",
+        "Url": "./2/9c712edb-2531-4ad5-be1f-03d4362e44ec",
+        "Type": "Application",
+        "UploadDate": "2014-04-25T21:39:38.963-07:00"
+      },
+      {
+        "Id": "e98c4640-f6a2-46e9-afcc-7df5284f13e1",
+        "FileName": "ntleas043_x86.7z",
+        "Url": "./2/e98c4640-f6a2-46e9-afcc-7df5284f13e1",
+        "Type": "Application",
+        "UploadDate": "2014-04-25T21:39:39.01-07:00"
+      },
+      {
+        "Id": "e304153e-4134-4eb5-8075-513ac31d7680",
+        "FileName": "ntleasWinUsage.005.7z",
+        "Url": "./2/e304153e-4134-4eb5-8075-513ac31d7680",
+        "Type": "Application",
+        "UploadDate": "2014-04-25T21:39:39.01-07:00"
+      },
+      {
+        "Id": "c697603b-cdfe-4b02-b0f0-60dee23401bf",
+        "FileName": "ntleasCodeUsage.001.7z",
+        "Url": "./2/c697603b-cdfe-4b02-b0f0-60dee23401bf",
+        "Type": "Application",
+        "UploadDate": "2014-04-25T21:39:39.103-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Ntleas Core.GUI Build 42",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 42*\n*Description*\n# fix bugs when right context menu start with configuration under x64, space there will break the full path.\n# fix bugs on ShellExecuteA with Folder Check Filter.\n# fix bugs on EnumFontsW EnumFontFamiliesExW using ntleai component, which may be crashed.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-24T07:23:57.093-07:00",
+    "Files": [
+      {
+        "Id": "9e376617-8183-43da-bd69-d15662824499",
+        "FileName": "ntleas042_x64.7z",
+        "Url": "./3/9e376617-8183-43da-bd69-d15662824499",
+        "Type": "Application",
+        "UploadDate": "2014-04-24T07:23:51.233-07:00"
+      },
+      {
+        "Id": "e449e136-e63d-4b39-bbd6-8ae4e9f78537",
+        "FileName": "ntleas042_x86.7z",
+        "Url": "./3/e449e136-e63d-4b39-bbd6-8ae4e9f78537",
+        "Type": "Application",
+        "UploadDate": "2014-04-24T07:23:51.313-07:00"
+      },
+      {
+        "Id": "e54583fd-12a9-454c-b95f-5c825a216993",
+        "FileName": "ntleasWinUsage.005.7z",
+        "Url": "./3/e54583fd-12a9-454c-b95f-5c825a216993",
+        "Type": "Application",
+        "UploadDate": "2014-04-24T07:23:51.453-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Ntleas Core.GUI Build 41",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 41*\n*Description*\n# Partially support EnumFonts Hook from English Facename to Local Facename.\n# With Supporting Local Facename, some Live Maker's Game are now supportted with fast starting up.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-23T04:48:36.463-07:00",
+    "Files": [
+      {
+        "Id": "9229fcd1-54ee-4e19-91dc-4976b8bfd5e0",
+        "FileName": "ntleas041_x64.7z",
+        "Url": "./4/9229fcd1-54ee-4e19-91dc-4976b8bfd5e0",
+        "Type": "Application",
+        "UploadDate": "2014-04-23T04:48:33.203-07:00"
+      },
+      {
+        "Id": "24bb850f-3719-46c9-9aa0-66f2a491c5fb",
+        "FileName": "ntleas041_x86.7z",
+        "Url": "./4/24bb850f-3719-46c9-9aa0-66f2a491c5fb",
+        "Type": "Application",
+        "UploadDate": "2014-04-23T04:48:33.263-07:00"
+      },
+      {
+        "Id": "28247f48-7869-42a0-b4af-9fdfba78cb99",
+        "FileName": "ntleasWinUsage.005.7z",
+        "Url": "./4/28247f48-7869-42a0-b4af-9fdfba78cb99",
+        "Type": "Application",
+        "UploadDate": "2014-04-23T04:48:33.28-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Ntleas Core.GUI Build 040",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 40*\n*Description*\n# fix bugs ntlea internal about MultiByteToWideChar / WideCharToMultiByte while convert partial text\n# fix bugs when ntleasWin GUI Apply without any current profile (empty profile) which being crashed at that time \n# fix bugs use error routine while create process in hooking process, this problem will be occured if not running under japanese program",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-16T08:18:33.29-07:00",
+    "Files": [
+      {
+        "Id": "1f59c945-0edb-4e32-a77b-ecb12c47c858",
+        "FileName": "ntleas040_x64.7z",
+        "Url": "./5/1f59c945-0edb-4e32-a77b-ecb12c47c858",
+        "Type": "Application",
+        "UploadDate": "2014-04-16T08:18:30.967-07:00"
+      },
+      {
+        "Id": "42bc63b0-6522-424a-89aa-d2702ff865ab",
+        "FileName": "ntleas040_x86.7z",
+        "Url": "./5/42bc63b0-6522-424a-89aa-d2702ff865ab",
+        "Type": "Application",
+        "UploadDate": "2014-04-16T08:18:31.043-07:00"
+      },
+      {
+        "Id": "63654f11-9b7a-44bf-a909-0ac2c0a0b139",
+        "FileName": "ntleasWinUsage.005.7z",
+        "Url": "./5/63654f11-9b7a-44bf-a909-0ac2c0a0b139",
+        "Type": "Application",
+        "UploadDate": "2014-04-16T08:18:31.123-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Ntleas Core.GUI Build 39",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 39*\n*Description*\n# fix bugs when use ntleak.dll, with selecting path got gamble code-string.\n# fix bugs when x64 application running x86 application could not select ntleai.dll\n# upgrade component version this time :D",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-13T07:58:25.123-07:00",
+    "Files": [
+      {
+        "Id": "5dc6129c-f697-4283-bde3-152bebe3a9d8",
+        "FileName": "ntleas039_x64.7z",
+        "Url": "./6/5dc6129c-f697-4283-bde3-152bebe3a9d8",
+        "Type": "Application",
+        "UploadDate": "2014-04-13T07:58:23.263-07:00"
+      },
+      {
+        "Id": "1efef8f1-a796-47c6-8146-9ea482cc6c57",
+        "FileName": "ntleas039_x86.7z",
+        "Url": "./6/1efef8f1-a796-47c6-8146-9ea482cc6c57",
+        "Type": "Application",
+        "UploadDate": "2014-04-13T07:58:23.323-07:00"
+      },
+      {
+        "Id": "d2afa6b7-9993-48e8-a21b-2c95f53f163e",
+        "FileName": "ntleasWinUsage.005.7z",
+        "Url": "./6/d2afa6b7-9993-48e8-a21b-2c95f53f163e",
+        "Type": "Application",
+        "UploadDate": "2014-04-13T07:58:23.373-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Ntleas Core.GUI Build 38",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 38*\n*Description*\n# fix bug when hook SHBrowseInfoA, the default size of pszDisplayName should have at least MAX_PATH charactors, or else, the program may be crashed after select directory.\n\nall previous should have upgrade to this new version.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-12T06:32:18.663-07:00",
+    "Files": [
+      {
+        "Id": "e03bcfb9-c489-4daf-b6bb-042dee7b0fd2",
+        "FileName": "ntleas038_x64.7z",
+        "Url": "./7/e03bcfb9-c489-4daf-b6bb-042dee7b0fd2",
+        "Type": "Application",
+        "UploadDate": "2014-04-12T06:32:17.15-07:00"
+      },
+      {
+        "Id": "0e0272f2-79c4-447a-a4ab-4e4af17597da",
+        "FileName": "ntleas038_x86.7z",
+        "Url": "./7/0e0272f2-79c4-447a-a4ab-4e4af17597da",
+        "Type": "Application",
+        "UploadDate": "2014-04-12T06:32:17.21-07:00"
+      },
+      {
+        "Id": "fe5174d1-04f7-40c8-b629-7e41dbcdd091",
+        "FileName": "ntleasWinUsage.005.7z",
+        "Url": "./7/fe5174d1-04f7-40c8-b629-7e41dbcdd091",
+        "Type": "Application",
+        "UploadDate": "2014-04-12T06:32:17.273-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Ntleas Core.GUI Build 37",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 37*\n*Description*\n# Fix Bugs when open rar files with space in the path.\n# Fix Bugs when open ntleasWin GUI without as administrator, only register as context menu will explicitly asked for password. \n# Add support for X86 with game \"神採りアルケミーマイスター体験版\", only default ntleai.dll could be used",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-10T06:27:07.72-07:00",
+    "Files": [
+      {
+        "Id": "ddc8e9b0-126b-4db7-ab1a-5151d4c085ee",
+        "FileName": "ntleas037_x64.7z",
+        "Url": "./8/ddc8e9b0-126b-4db7-ab1a-5151d4c085ee",
+        "Type": "Application",
+        "UploadDate": "2014-04-10T06:27:05.457-07:00"
+      },
+      {
+        "Id": "40c90d41-2ebc-4469-82bc-fd6e3b75c9a8",
+        "FileName": "ntleas037_x86.7z",
+        "Url": "./8/40c90d41-2ebc-4469-82bc-fd6e3b75c9a8",
+        "Type": "Application",
+        "UploadDate": "2014-04-10T06:27:05.503-07:00"
+      },
+      {
+        "Id": "cb853f2f-bc5e-46a8-a823-c4528d1c0a26",
+        "FileName": "ntleasWinUsage.004.7z",
+        "Url": "./8/cb853f2f-bc5e-46a8-a823-c4528d1c0a26",
+        "Type": "Application",
+        "UploadDate": "2014-04-10T06:27:05.517-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "Ntleas Core.GUI Build 36",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 36*\n*Description*\n# fixed some XUSE game crash problem, cuz VerQueryValueA hook support of StringInfo is not very good, made those app crashed.\n# add a new debugging method with a new tool named ntleasig.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-06T22:49:48.353-07:00",
+    "Files": [
+      {
+        "Id": "3d471520-1f9d-4042-ad9c-3a62ccb4773e",
+        "FileName": "ntleas036_x86.7z",
+        "Url": "./9/3d471520-1f9d-4042-ad9c-3a62ccb4773e",
+        "Type": "Application",
+        "UploadDate": "2014-04-06T22:49:46.747-07:00"
+      },
+      {
+        "Id": "11641d7b-5f4e-44d9-9bcf-654535824bb5",
+        "FileName": "ntleas036_x64.7z",
+        "Url": "./9/11641d7b-5f4e-44d9-9bcf-654535824bb5",
+        "Type": "Application",
+        "UploadDate": "2014-04-06T22:49:46.81-07:00"
+      },
+      {
+        "Id": "99b5cb78-9bdd-419d-89a9-0081699e484b",
+        "FileName": "ntleasWinUsage.004.7z",
+        "Url": "./9/99b5cb78-9bdd-419d-89a9-0081699e484b",
+        "Type": "Application",
+        "UploadDate": "2014-04-06T22:49:46.823-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "10",
+    "Name": "Ntleas Core.GUI Build 35",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 35*\n*Description*\n# Fix bugs failed create process when call system executable, for most cases, in Installation use system 'msiexec.exe'.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-05T20:50:24.057-07:00",
+    "Files": [
+      {
+        "Id": "3287b720-ccd2-44dc-96bd-4347a3ad45a8",
+        "FileName": "ntleas035_x86.7z",
+        "Url": "./10/3287b720-ccd2-44dc-96bd-4347a3ad45a8",
+        "Type": "Application",
+        "UploadDate": "2014-04-05T20:50:22.167-07:00"
+      },
+      {
+        "Id": "7ee10238-7e3a-4b3e-8e06-9a4746062703",
+        "FileName": "ntleas035_x64.7z",
+        "Url": "./10/7ee10238-7e3a-4b3e-8e06-9a4746062703",
+        "Type": "Application",
+        "UploadDate": "2014-04-05T20:50:22.23-07:00"
+      },
+      {
+        "Id": "b54ddbab-1a6b-4c7f-90e2-a804fb5b9dfc",
+        "FileName": "ntleasWinUsage.004.7z",
+        "Url": "./10/b54ddbab-1a6b-4c7f-90e2-a804fb5b9dfc",
+        "Type": "Application",
+        "UploadDate": "2014-04-05T20:50:22.26-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "11",
+    "Name": "Ntleas Core.GUI Build 34",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 34*\n*Description*\n# Fix bug, context menu open dialog on path contain at leat 1 space, cause the path show error\n# Fix bug, XP system can not open program to run(no ChangeWindowMessageFilter function & RegDeleteTreeW function)\n# Add prompt on reg context menu successfully.\nNow above all bugs were got fixed ;) .",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-04T21:28:18.263-07:00",
+    "Files": [
+      {
+        "Id": "17814913-8454-4f77-a267-32a0d9fd2a42",
+        "FileName": "ntleas034_x86.7z",
+        "Url": "./11/17814913-8454-4f77-a267-32a0d9fd2a42",
+        "Type": "Application",
+        "UploadDate": "2014-04-04T21:28:16.987-07:00"
+      },
+      {
+        "Id": "ebb861df-6c19-453d-b4f9-c676a1e8b490",
+        "FileName": "ntleas034_x64.7z",
+        "Url": "./11/ebb861df-6c19-453d-b4f9-c676a1e8b490",
+        "Type": "Application",
+        "UploadDate": "2014-04-04T21:28:17-07:00"
+      },
+      {
+        "Id": "eeb4c617-cc1f-4ff0-b961-cfb02ad4ba53",
+        "FileName": "ntleasWinUsage.004.7z",
+        "Url": "./11/eeb4c617-cc1f-4ff0-b961-cfb02ad4ba53",
+        "Type": "Application",
+        "UploadDate": "2014-04-04T19:26:03.093-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "12",
+    "Name": "Ntleas Core.GUI Build 33",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build 33*\n*Description*\n# Add <-- as shortcut creator, just mini rebuild version :)",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-04-04T07:07:00.203-07:00",
+    "Files": [
+      {
+        "Id": "09efaf10-c2c6-4e09-b5eb-bc73af452ef3",
+        "FileName": "ntleas033_x86.7z",
+        "Url": "./12/09efaf10-c2c6-4e09-b5eb-bc73af452ef3",
+        "Type": "Application",
+        "UploadDate": "2014-04-04T07:06:58.77-07:00"
+      },
+      {
+        "Id": "6e5805be-e14d-4b0c-8192-1eab3d4e367b",
+        "FileName": "ntleas033_x64.7z",
+        "Url": "./12/6e5805be-e14d-4b0c-8192-1eab3d4e367b",
+        "Type": "Application",
+        "UploadDate": "2014-04-04T07:06:58.8-07:00"
+      },
+      {
+        "Id": "99063ca9-6649-48d7-884d-c1c009c27c16",
+        "FileName": "ntleasWinUsage.003.7z",
+        "Url": "./12/99063ca9-6649-48d7-884d-c1c009c27c16",
+        "Type": "Application",
+        "UploadDate": "2014-04-04T07:06:58.8-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "13",
+    "Name": "Ntleas Core . GUI . ContextMenu Build 32",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 32*\n*Description*\n# Append a really start-from-scratched GUI (NtleasWin) with ContextMenu integrated\n# Append Chinese Simplified Documentation for description how to use gui & ctx",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-03-31T18:11:12.403-07:00",
+    "Files": [
+      {
+        "Id": "ebcfe034-7eb7-428c-918d-ef8fdde73915",
+        "FileName": "ntleas032_x86.7z",
+        "Url": "./13/ebcfe034-7eb7-428c-918d-ef8fdde73915",
+        "Type": "Application",
+        "UploadDate": "2014-03-31T03:22:41.433-07:00"
+      },
+      {
+        "Id": "f9e9cfe3-d886-41cb-8f1f-892ab9110f60",
+        "FileName": "ntleas032_x64.7z",
+        "Url": "./13/f9e9cfe3-d886-41cb-8f1f-892ab9110f60",
+        "Type": "Application",
+        "UploadDate": "2014-03-31T03:22:41.51-07:00"
+      },
+      {
+        "Id": "0dbfeecf-d14e-48d0-9105-27f1a84c57b7",
+        "FileName": "ntleasWinUsage.002.7z",
+        "Url": "./13/0dbfeecf-d14e-48d0-9105-27f1a84c57b7",
+        "Type": "Application",
+        "UploadDate": "2014-03-31T18:11:10.843-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "14",
+    "Name": "Ntleas Core Build 31",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 31*\n*Description*\n# Ntleas Support X64 now! But still in experimental yet, may sometimes unstable :D\n# Ntleas Add minhook(ntleak) & mhook(ntleaj) as optional hook method for x86, and minhook(ntleak.dll) is recommanded for common use, while only ntleaj and ntleak is support x64 yet.\n# Nleas Support param specified for use of ntleah ntleai ntleaj ntleak(for x86), you may use \"Mh\" \"Mi\" \"Mj\" \"Mk\" for indicator which to use.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-02-22T05:47:31.84-08:00",
+    "Files": [
+      {
+        "Id": "d9f9848f-f87d-49b2-9cf7-efcfc4acbfa8",
+        "FileName": "ntleas031_x86.7z",
+        "Url": "./14/d9f9848f-f87d-49b2-9cf7-efcfc4acbfa8",
+        "Type": "Application",
+        "UploadDate": "2014-02-22T05:47:30.857-08:00"
+      },
+      {
+        "Id": "352c6f5a-6561-41de-a2ee-005cc2bf371a",
+        "FileName": "ntleas031_x64.7z",
+        "Url": "./14/352c6f5a-6561-41de-a2ee-005cc2bf371a",
+        "Type": "Application",
+        "UploadDate": "2014-02-22T05:47:30.903-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "15",
+    "Name": "Ntleas Core Build 30",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 30*\n*Description*\n# Fixed when lpClassName is 0x0000 -> 0xFFFF simply convert to 0x0000, this error may made some games crash or prompt an error when create a new window.\n# Attach NTLEA8 (created and maintained currently by popcade)",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-02-15T22:11:08.02-08:00",
+    "Files": [
+      {
+        "Id": "debd45ff-9e11-44a8-b254-18835e9f6204",
+        "FileName": "ntleas030.7z",
+        "Url": "./15/debd45ff-9e11-44a8-b254-18835e9f6204",
+        "Type": "Application",
+        "UploadDate": "2014-02-15T06:56:53.347-08:00"
+      },
+      {
+        "Id": "250fde1f-dcd4-4563-aade-757701c21976",
+        "FileName": "NTLEA8_0.031+NTLEAS_30b.7z",
+        "Url": "./15/250fde1f-dcd4-4563-aade-757701c21976",
+        "Type": "Application",
+        "UploadDate": "2014-02-15T22:10:09.943-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "16",
+    "Name": "Ntleas Core Build 29",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 29*\n*Description: *\n# 在原来的基础上筛选去原生Unicode的程序，解决部分RMXP/RMVX等标题乱码问题；\n# 追加运行时根据文件打开方式挂接子进程；\n# 追加Hook ShellExecuteA保持兼容；",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-02-06T21:38:07.65-08:00",
+    "Files": [
+      {
+        "Id": "03b0b936-84d1-4261-a440-a1340f620880",
+        "FileName": "ntleas029.7z",
+        "Url": "./16/03b0b936-84d1-4261-a440-a1340f620880",
+        "Type": "Application",
+        "UploadDate": "2014-02-06T21:38:07.51-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "17",
+    "Name": "Ntleas Core Build 28",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 28*\n*Description:*\n# 增加无参数的判断，并且支持没有指定参数打开文件对话框如同原版NTLEA一样\n# 专门增对打开文件路径选择对话框做了特殊处理，支持文本正常显示\n# 针对部分游戏资源不正确做了大量调试工作，目前版本兼容性有待测试",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-02-06T07:34:37.787-08:00",
+    "Files": [
+      {
+        "Id": "f8241aa3-5e5f-4654-8e64-d78a08be7127",
+        "FileName": "ntleas028.7z",
+        "Url": "./17/f8241aa3-5e5f-4654-8e64-d78a08be7127",
+        "Type": "Application",
+        "UploadDate": "2014-02-06T07:34:37.55-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "18",
+    "Name": "Ntleas Core Build 27",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 27*\n*Description:*\n# Emergency Patch, for that many dialog based applications may failed to run even being crash, this new build resolved the problem. Build 22 - Build 26 should be replaced with this new build.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-02-12T03:34:39.053-08:00",
+    "Files": [
+      {
+        "Id": "d399240b-9536-4694-a30c-5780eaabe9ce",
+        "FileName": "ntleas027.7z",
+        "Url": "./18/d399240b-9536-4694-a30c-5780eaabe9ce",
+        "Type": "Application",
+        "UploadDate": "2014-02-03T21:03:26.903-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "19",
+    "Name": "Ntleas Core Build 25",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 25*\n\n*Description*\n# New Dialog Patch For Some DialogBased Games/Applications.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-02-01T21:36:21.447-08:00",
+    "Files": [
+      {
+        "Id": "d49d6250-39ce-4f33-be14-eb90275ff5c6",
+        "FileName": "ntleas025.7z",
+        "Url": "./19/d49d6250-39ce-4f33-be14-eb90275ff5c6",
+        "Type": "Application",
+        "UploadDate": "2014-02-01T21:36:21.15-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "20",
+    "Name": "Ntleas Core Build 26",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 26*\n\n*Description*\n# support hook WinExec for Process-Creation.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-02-02T06:45:09.7-08:00",
+    "Files": [
+      {
+        "Id": "a8d93f31-e051-4751-88d1-971c91aa7c1d",
+        "FileName": "ntleas026.7z",
+        "Url": "./20/a8d93f31-e051-4751-88d1-971c91aa7c1d",
+        "Type": "Application",
+        "UploadDate": "2014-02-02T06:45:09.5-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "21",
+    "Name": "Ntlea Original",
+    "DevelopmentStatus": "Stable",
+    "Description": "Original Ntlea, build by latest Go Compiler, support win2000 -> windows7",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-02-02T06:43:04.043-08:00",
+    "Files": [
+      {
+        "Id": "2ea82a83-3387-472c-bdba-b0e079da1505",
+        "FileName": "ntlea.7z",
+        "Url": "./21/2ea82a83-3387-472c-bdba-b0e079da1505",
+        "Type": "Application",
+        "UploadDate": "2014-02-02T06:43:03.793-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "22",
+    "Name": "Ntleas Core Build 24",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 24*\n\n*Description*\n# For Function such as CreateDialogIndirectParam, the HookMethod failed cuz it not using CreateWindowExA, maybe it use CreateWindowExW or maybe it only use internal NtCreateWindowEx, thus some dialog contols won't hook correctly, here just handle them specially, with Dynamic Set TopLevelWindowProc there.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-01-31T20:17:16.093-08:00",
+    "Files": [
+      {
+        "Id": "61a4e215-6dcb-47bb-a165-b4334a3a8fde",
+        "FileName": "ntleas024.7z",
+        "Url": "./22/61a4e215-6dcb-47bb-a165-b4334a3a8fde",
+        "Type": "Application",
+        "UploadDate": "2014-01-31T20:17:15.843-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "23",
+    "Name": "Ntleas Core Build 23",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 23*\n\n*Description*\n# fixed a ntlea bug, this bug may express under windows x64bit system, at least on windows 7 x64, when try open a dialog, the window may hung there, with introducing a reference counter of install/uninstall cbt hook, the problem seems no longer reproduced.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-01-31T06:07:51.677-08:00",
+    "Files": [
+      {
+        "Id": "e801f92c-a18c-4163-b3a8-e68c89bb44ad",
+        "FileName": "ntleas023.7z",
+        "Url": "./23/e801f92c-a18c-4163-b3a8-e68c89bb44ad",
+        "Type": "Application",
+        "UploadDate": "2014-01-31T06:07:51.647-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "24",
+    "Name": "Ntleas Core",
+    "DevelopmentStatus": "Beta",
+    "Description": "Ntleas First Release Beta Version. \nVersion: 1.0.0b\nBuild: 21",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-01-29T21:05:16.273-08:00",
+    "Files": [
+      {
+        "Id": "dcf031e7-e3f7-40ea-9564-5f546aa54082",
+        "FileName": "ntleas021.7z",
+        "Url": "./24/dcf031e7-e3f7-40ea-9564-5f546aa54082",
+        "Type": "Application",
+        "UploadDate": "2014-01-29T21:05:16.243-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "25",
+    "Name": "Ntleas Core Build 22",
+    "DevelopmentStatus": "Beta",
+    "Description": "*Version: 1.0.0b*\n*Build: 22*\n\n*Description*\n# Add Support For Non-Executable Files, use its relation executable file instead.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-01-31T06:08:19.383-08:00",
+    "Files": [
+      {
+        "Id": "003f080d-f3de-48d9-a44d-5b54557849b2",
+        "FileName": "ntleas022.7z",
+        "Url": "./25/003f080d-f3de-48d9-a44d-5b54557849b2",
+        "Type": "Application",
+        "UploadDate": "2014-01-30T04:13:18.563-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "26",
+    "Name": "Ntleas Core.GUI Build 46",
+    "DevelopmentStatus": "Stable",
+    "Description": "*Version: 1.0.0*\n*Build: 46*\n*Description*\nrestore : enable font flag to be valid again, cuz the method auto detect fontface was not work perfect from Build 41 as I want.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2015-08-02T05:59:26.057-07:00",
+    "Files": [
+      {
+        "Id": "edb48a72-dbc0-49bf-a0a7-3820fbc0220c",
+        "FileName": "ntleas046_x64.7z",
+        "Url": "./26/edb48a72-dbc0-49bf-a0a7-3820fbc0220c",
+        "Type": "Application",
+        "UploadDate": "2015-08-02T05:59:09.77-07:00"
+      },
+      {
+        "Id": "e12bfcc4-dafa-4ac2-99a2-741594482b2f",
+        "FileName": "ntleas046_x86.7z",
+        "Url": "./26/e12bfcc4-dafa-4ac2-99a2-741594482b2f",
+        "Type": "Application",
+        "UploadDate": "2015-08-02T05:59:09.817-07:00"
+      },
+      {
+        "Id": "0433c653-c8db-49ec-965d-93d1d3a59459",
+        "FileName": "ntleasWinUsage.005.7z",
+        "Url": "./26/0433c653-c8db-49ec-965d-93d1d3a59459",
+        "Type": "Application",
+        "UploadDate": "2015-08-02T05:59:09.863-07:00"
+      }
+    ]
+  }
+]

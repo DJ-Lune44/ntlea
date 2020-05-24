@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "YNagato Thanks for your reply.\n\nI'm really rare online now for personal reasons :D. ",
+    "ClosedDate": "2015-04-05T23:17:38.08-07:00",
+    "CommentCount": 2,
+    "Custom": null,
+    "Description": "If I see the screenshot on the home page, it seems like I can configure NTLEAS so that when I just right click on a program it'll have an option to run it with NTLEAS but I can't seem to be able to do it.",
+    "LastUpdatedDate": "2015-04-05T23:17:38.08-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-11-18T04:31:21.997-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How can you config NTLEAS to  have an option on right click?",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "If I see the screenshot on the home page, it seems like I can configure NTLEAS so that when I just right click on a program it'll have an option to run it with NTLEAS but I can't seem to be able to do it.\n",
+      "PostedDate": "2014-11-18T04:31:35.357-08:00",
+      "Id": 165998
+    },
+    {
+      "Message": "Click the arrow at the right bottom of the Ntleas Configuration.",
+      "PostedDate": "2015-01-13T23:21:41.647-08:00",
+      "Id": 170045
+    }
+  ]
+}

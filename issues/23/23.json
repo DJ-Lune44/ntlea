@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Before I was able to run the program flawlessly but after the latest update my game crashes the second I launch them with NTLEA. I know for sure it's not the game's problem because it launches fine without NTLEA",
+    "LastUpdatedDate": "2016-11-24T02:24:00.947-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2016-11-24T02:24:00.79-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "NTLEA Not Compatible With Latest Windows Update",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 23
+  },
+  "FileAttachments": [
+    {
+      "FileId": 1620320,
+      "FileName": "Screenshot_1.png",
+      "DownloadUrl": ".\\1620320"
+    }
+  ],
+  "Comments": []
+}

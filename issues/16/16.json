@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "测试32位的程序均可成功打开,64位程序打开后没有反应,进程在3~5秒后自动关闭",
+    "LastUpdatedDate": "2015-10-07T18:45:50.62-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2015-08-30T15:37:57.1-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "64位完全无法使用",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 16
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "請提供作業系統訊息：\n版本 / 防毒軟件 / 您欲使用的程序\n\n我們會進行排查",
+      "PostedDate": "2015-10-07T18:45:50.62-07:00",
+      "Id": 191281
+    }
+  ]
+}

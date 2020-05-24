@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "Title": "QLiE引擎的游戏，将英文错误解释为乱码"
+  },
+  {
+    "Id": 2,
+    "Title": "Build 30: launch issue with KAG games"
+  },
+  {
+    "Id": 3,
+    "Title": "BNO_Starter運行報錯internal exception"
+  },
+  {
+    "Id": 4,
+    "Title": "krkr Game's EnumFontName unexpected cutoff bug?"
+  },
+  {
+    "Id": 5,
+    "Title": "需要新的方式启动游戏"
+  },
+  {
+    "Id": 6,
+    "Title": "some issues"
+  },
+  {
+    "Id": 7,
+    "Title": "对反斜线的处理有问题"
+  },
+  {
+    "Id": 8,
+    "Title": "rgss301.dll (Rpg Maker VX Ace) 會出錯"
+  },
+  {
+    "Id": 9,
+    "Title": "加载MMD时会有几率闪退"
+  },
+  {
+    "Id": 10,
+    "Title": "some games simply error out with NTLEAS, but works with NTLEA"
+  },
+  {
+    "Id": 11,
+    "Title": "所有程序都无法运行"
+  },
+  {
+    "Id": 12,
+    "Title": "How can you config NTLEAS to  have an option on right click?"
+  },
+  {
+    "Id": 13,
+    "Title": "No Compulsory Mode?"
+  },
+  {
+    "Id": 14,
+    "Title": "LiveMaker games crash on launch when certain font is installed"
+  },
+  {
+    "Id": 15,
+    "Title": "Does not work on windows installer"
+  },
+  {
+    "Id": 16,
+    "Title": "64位完全无法使用"
+  },
+  {
+    "Id": 17,
+    "Title": "GraphicsGale not working properly with NTLEA"
+  },
+  {
+    "Id": 18,
+    "Title": "64位NTLEAs的问头"
+  },
+  {
+    "Id": 19,
+    "Title": "新楓之谷使用不能"
+  },
+  {
+    "Id": 20,
+    "Title": "要开蜂鸟加速器结果失败"
+  },
+  {
+    "Id": 21,
+    "Title": "ゆめいろアルエット！ still requires Japanese display language to run with NTLEA"
+  },
+  {
+    "Id": 22,
+    "Title": "NTLEA got a fatal exception during execution"
+  },
+  {
+    "Id": 23,
+    "Title": "NTLEA Not Compatible With Latest Windows Update"
+  },
+  {
+    "Id": 24,
+    "Title": "64 bit NTLEA not working for mixed 32/64 bit programs"
+  },
+  {
+    "Id": 25,
+    "Title": "ntleas.exe not compatible with Mactype"
+  }
+]

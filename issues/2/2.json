@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 2,
+    "Custom": null,
+    "Description": "Some KAG games apparently don't handle drive/folder paths correctly under NTLEA, when  configured .cf file is present in the same folder.\r\n\r\nThey report error on launch:\r\n\r\nexe_name\r\n---\r\n\"\" は対応していないメディアタイプです.\r\n---\r\n[OK]\r\n---\r\n\r\nIf there is no exe_name.cf file in the same folder, or if it's empty, the game runs fine.\r\n\r\nTested on games by 私立さくらんぼ乳学校. Sample of their .cf file:\r\n```\r\n; ============================================================================\r\n; *DO NOT EDIT* this file unless you are understanding what you are doing.\r\n; FYI:\r\n;  Each line consists of NAME=\"VALUE\" pair, VALUE is a series of\r\n;  \\xNN, where NN is hexadecimal representation of UNICODE codepoint.\r\n;  For example, opt=\"\\x61\\x62\\x63\\x3042\\x3044\\x3046\" means that the\r\n;  value of options \"opt\" is alphabets a, b, and c followed by Japanese\r\n;  Hiraganas A, I, and U.\r\n;  DO NOT PUT non-escaped value like opt=\"abc\". This doesn't work and should\r\n;  be like opt=\"\\x61\\x62\\x63\".\r\n; ============================================================================\r\ndatapath=\"\\x24\\x28\\x70\\x65\\x72\\x73\\x6F\\x6E\\x61\\x6C\\x70\\x61\\x74\\x68\\x29\\x5C\\x79C1\\x7ACB\\x3055\\x304F\\x3089\\x3093\\x307C\\x4E73\\x5B66\\x6821\\x5C\\x5973\\x5B50\\x9AD8\\x751F\\x3068\\x548C\\x5BA4\\x3000\\x5584\\x660E\\x3059\\x307F\\x308C\"\r\ndebugwin=\"\\x6E\\x6F\"\r\njoypad=\"\\x6E\\x6F\"\r\nfsres=\"\\x6E\\x6F\\x63\\x68\\x61\\x6E\\x67\\x65\"\r\n```\r\n\r\n\r\nThere is no such problem with \"NTLEA 0.931 / NTLEASS 1.2\" package, although it has other bugs.",
+    "LastUpdatedDate": "2014-03-05T05:49:49.93-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-02-18T01:49:12.353-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Build 30: launch issue with KAG games",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 2
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi, \n\nthe latest Ntleas is build 31, with some bug fixed, is this problem still exists under 31b?",
+      "PostedDate": "2014-03-05T04:03:12.83-08:00",
+      "Id": 135882
+    },
+    {
+      "Message": "OK, the test game is running ok here, with loading under build 31 or even build 30, my operating system is windows 8.1 x86, i saw the file named inj*.cf there(same as yours given above)\n\ndon't know how to reproduce the error, or maybe there is something operations required then cause the prompt window, and thus been relation with the path ? \n\nthe error prompt メディアタイプ, does it means MediaType? maybe error when play some video? plz, give me some more clues thx :D\n",
+      "PostedDate": "2014-03-05T05:49:49.93-08:00",
+      "Id": 135890
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Fixed in Build 44",
+    "ClosedDate": "2014-07-13T17:15:23.07-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "open any krkr game, then open font choose dialog, we will see the japanese font name is cut off unexpectedly, \r\n\r\nwhile after some test, it is said that, the font name which use japanese charactors will lost number of chars just the same as the number of japanese charactor, and it relation should be 3 : 2,\r\n\r\nit maybe some error from counting UTF-8 vs. counting ANSI, but where the bug is now currently undeterminable yet... ",
+    "LastUpdatedDate": "2014-07-13T17:15:23.07-07:00",
+    "PlannedForRelease": "Ntleas Core.GUI Build 43",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-07-06T07:01:20.477-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Fixed"
+    },
+    "Summary": "krkr Game's EnumFontName unexpected cutoff bug?",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 4
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Font in question is Terminator Cyr Semi-expanded Bold:\r\nhttp://www.creamundo.com/en/terminator_cyr_semi-expanded_bold\r\n\r\nWhen it is installed and you try to run LiveMaker game with Ntleas, it will crash.\r\n\r\nWithout either Ntleas or this font installed, the game does not crash on launch.",
+    "LastUpdatedDate": "2015-05-01T05:13:28.747-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2015-05-01T05:13:28.747-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "LiveMaker games crash on launch when certain font is installed",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 14
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

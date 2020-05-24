@@ -1,0 +1,111 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 13,
+    "Custom": null,
+    "Description": "如果直接使用，會出現如圖的錯誤\r\n![Image](http://i.imgur.com/GTk8T7g.png)\r\n\r\n如果勾選 Support Special Path\r\n會出現如圖錯誤\r\n![Image](http://i.imgur.com/oQXU50f.png)",
+    "LastUpdatedDate": "2014-08-29T01:08:10.827-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-08-18T05:21:34.137-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "rgss301.dll (Rpg Maker VX Ace) 會出錯",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 8
+  },
+  "FileAttachments": [
+    {
+      "FileId": 900403,
+      "FileName": "orc.png",
+      "DownloadUrl": ".\\900403"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "你好，\n\n请问是直接在开启RPGMakerVXAce编辑器中提示这个问题吗？还是在其制作的游戏运行出现问题？\n\n还是需要有其他操作步骤才会产生问题？？",
+      "PostedDate": "2014-08-24T04:29:23.203-07:00",
+      "Id": 156835
+    },
+    {
+      "Message": "使用RPG Maker VXAce製作的遊戲\n\n以NTLEAS預設的japanese generic設定檔運行時都會出現這個問題\n\n作業系統為Win7 64bit\n\n在兩台以上作業系統是Win7 64bit的電腦測試過",
+      "PostedDate": "2014-08-24T08:17:51.69-07:00",
+      "Id": 156849
+    },
+    {
+      "Message": "第一个对话框提示的好象是缺少对应的字体？？\n\n字体下载链接：http://tieba.baidu.com/p/2003090316\nhttp://pan.baidu.com/share/link?shareid=128662&uk=3256386912\n\n不知道是不是和字体缺少有关系？先确定排除这个问题吧？",
+      "PostedDate": "2014-08-26T01:29:37.71-07:00",
+      "Id": 156941
+    },
+    {
+      "Message": "VL Gothic 官方字体下载点可以在这里：\nhttp://sourceforge.jp/projects/vlgothic/releases/61731\n\n如果还有问题麻烦再回复一下。",
+      "PostedDate": "2014-08-26T01:36:48.97-07:00",
+      "Id": 156943
+    },
+    {
+      "Message": "安裝了VLGothic-20140801後還是錯誤XD\n\n![Image](http://i.imgur.com/1oU4rRv.png)\n\n兩個問題都會發生",
+      "PostedDate": "2014-08-26T06:50:15.567-07:00",
+      "Id": 156965
+    },
+    {
+      "Message": "如果直接运行的话呢？\n\n昨天后来找到下载了140428版本的，用不用ntlea都可以直接运行，只是用了转区以后，仅仅作为标题不乱码了，游戏内容都是没区别的（实际上因为RMxx系列就是不用转的），是不是可能有其他问题？",
+      "PostedDate": "2014-08-26T17:29:11.837-07:00",
+      "Id": 158016
+    },
+    {
+      "Message": "发现你的系统是英文版系统？刚好手头有WIN7 X64的英文版系统（不过之前转区到日文做测试了），转回来到米国，并用NTLEAS进行运行均正常……\r\n\r\n开始怀疑是你下载的档案是不是缺少？仔细把下载的档案看了一下里面自带了Fonts的文件夹。",
+      "PostedDate": "2014-08-26T23:50:35.867-07:00",
+      "Id": 158026
+    },
+    {
+      "Message": "我重新去DLSite 下載了一次\n並檢查壓縮檔完整性\n都無誤\n\n還測試了我購買的兩款遊戲\nRJ126905和RJ123426\n\n用Ntleas執行結果和之前回報的問題一樣\n\n![Image](http://i.imgur.com/i5DJbHz.png)\n![Image](http://i.imgur.com/6e1RY1k.png)\n\n如果目錄名稱沒有中文或日文\n直接執行Game.exe是可以玩的\n\n但用Ntleas來啟動就有之前敘述過的問題",
+      "PostedDate": "2014-08-27T05:19:58.067-07:00",
+      "Id": 158032
+    },
+    {
+      "Message": "能不能说明一下系统环境，我看看能不能构建一个相似的环境……",
+      "PostedDate": "2014-08-27T19:09:51.68-07:00",
+      "Id": 158116
+    },
+    {
+      "Message": "Windows 7 ultimate x64 build 7601\n\n英文介面\n\n重灌後不久\n\n沒有防毒\n\n只有必要的軟體和函式庫安裝在上面\n\n如果還有要補充的我可以再提供資訊",
+      "PostedDate": "2014-08-27T19:52:41.677-07:00",
+      "Id": 158119
+    },
+    {
+      "Message": "英文界面，其实系统原生的是繁体中文版本（港版/台版）吗？还是原生已经是英文版？还是简体中文呢？专业版、企业版还是家庭版？有没有打上SP1？\n\nWindows 7 Professional with Service Pack 1 (x64) - DVD (Chinese-Taiwan) \nWindows 7 Professional (x64) - DVD (Chinese-Taiwan)\nWindows 7 Professional with Service Pack 1, VL Build (x64) - DVD (Chinese-Taiwan)\nWindows 7 Enterprise with Service Pack 1 (x64) - DVD (Chinese-Taiwan)\nWindows 7 Enterprise (x64) - DVD (Chinese-Taiwan)\nWindows 7 Home Premium with Service Pack 1 (x64) - DVD (Chinese-Taiwan)\nWindows 7 Home Premium (x64) - DVD (Chinese-Taiwan) \n\nWindows 7 Enterprise with Service Pack 1 (x64) - DVD (Chinese-Hong Kong SAR) \n。。。。后面就不多列了\n\n这个问题目测比较难解决，反正先尝试一下安装好对应的系统跑一下，还是不能复现就很麻烦了，暂时只能保留到以后解决……\n",
+      "PostedDate": "2014-08-28T17:49:40.517-07:00",
+      "Id": 158219
+    },
+    {
+      "Message": "Windows 7 Ultimate with Service Pack 1  (x64) 原本就是英文版\n\n有升級到8月最新的更新",
+      "PostedDate": "2014-08-28T19:11:08.743-07:00",
+      "Id": 158223
+    },
+    {
+      "Message": "＝ ＝ 系统估计没啥影响了，不知道方便的话能不能传到baidu盘或者哪里，试试看 是不是就是原版差异了……\n\n我是从别的地方TORRENT下载的，也许版本不太一样……\n\n从版权角度考虑，最好是公开免费版本，且在你机器上能够跑出问题。\n",
+      "PostedDate": "2014-08-29T01:08:10.827-07:00",
+      "Id": 158235
+    }
+  ]
+}

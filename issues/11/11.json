@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 3,
+    "Custom": null,
+    "Description": "使用右键的方式或桌面快捷方式，运行程序后，程序都不执行，就像没有执行过一下，连出错提示窗都没有。",
+    "LastUpdatedDate": "2015-10-07T18:44:17.49-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-11-01T09:46:24.003-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "所有程序都无法运行",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 11
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Click \"Save & Run\" in Ntleas Configuration.",
+      "PostedDate": "2015-01-13T23:23:13.703-08:00",
+      "Id": 170046
+    },
+    {
+      "Message": "Hi,\n\nPlease try alternative NTLEA8 GUI, if  game/app does not work, you can provide us the examples.\n\nBTW, you may try let NTLEA8/NTLEAS/NTLEAGUI to run in admin mode.",
+      "PostedDate": "2015-05-12T00:53:02.27-07:00",
+      "Id": 184235
+    },
+    {
+      "Message": "補充說明，國內許多防毒軟件會有攔截RPC前導方式的啟動殼，這導致ntleas Loader無法運行，目前發現QQ管家比較容易發生此情形，目前提供了三種核心可切換，如果無法排除，請說明您用的 作業系統版本/是否64位元/防毒軟件 等資訊以供排查",
+      "PostedDate": "2015-10-07T18:44:17.49-07:00",
+      "Id": 191280
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A little backstory - I made a switch to win10 and then discovered that applocale isn't working on it. Looked for alternatives and found this program.\r\nEverything seems fine except it does not work for child processes with different architecture. I run Far Manager usually (for working with japanese file names), and start my batch files or other programs. \r\nAnd the problem is:\r\nUsually I run 32-bit Far Manager and from it launch my bat files and programs. But with NTLEA I can only run 32-bit executables, any 64-bit one throws an error \"The specified EXE creation is not support yet\". Even simple dir command cannot be run since it involves 64-bit cmd.exe\r\n\r\nPlease make it possible to run mixed 32/64 programs, honestly the inability to use applocale and deficiency of  others similar programs is forcing me to consider going back to win7. As of now, I cannot fully replace applocale with any of existing locale-changing programs, each of them has one or more bugs which render it unusable for me\r\n\r\nOS: Windows 10 Pro 1607 x64\r\nNTLEA: 046 x64",
+    "LastUpdatedDate": "2017-03-20T00:11:49.603-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2017-03-20T00:11:49.603-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "64 bit NTLEA not working for mixed 32/64 bit programs",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 24
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

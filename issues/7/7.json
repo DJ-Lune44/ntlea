@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 1,
+    "Custom": null,
+    "Description": "当运行某日文程序时，\r\n本来应该是在\r\ninstalldir/program/savedata下创建文件的\r\n但实际上却在\r\ninstalldir/savedata下创建了文件\r\n\r\n原因是对路径中的反斜线的处理有问题，导致路径出错了\r\n\r\n在用applocale的时候没有出现这样的问题",
+    "LastUpdatedDate": "2014-08-24T04:27:22.227-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "ntlea",
+    "ReportedDate": "2014-07-26T17:33:25.443-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "对反斜线的处理有问题",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 7
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "你好，感谢反馈问题\n\n因为很多安装程序都涉及到反斜线是没有出问题，可能和这个程序的调用方式有关，可能没有正常挂接之类的，应该属于BUG。\n\n但是从这个反馈上貌似较难定位问题，能提供一下问题程序的链接或者名称吗？",
+      "PostedDate": "2014-08-24T04:27:22.227-07:00",
+      "Id": 156834
+    }
+  ]
+}
